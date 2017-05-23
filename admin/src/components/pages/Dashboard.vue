@@ -29,14 +29,14 @@
         <div class="blog">
           <el-alert
             title="博客源码:"
-            description="https://github.com/smallpath/blog"
+            description="https://github.com/APPLLEJN/blog"
             type="success"
             show-icon>
           </el-alert>
           <el-alert
             style="margin-top: 20px;"
             title="问题反馈:"
-            description="https://github.com/smallpath/blog/issues"
+            description="https://github.com/APPLLEJN/blog/issues"
             type="info"
             show-icon>
           </el-alert>
