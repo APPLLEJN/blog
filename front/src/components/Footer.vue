@@ -1,7 +1,7 @@
 <template>
   <footer id="footer" class="inner">
     &copy; 2016&nbsp;-&nbsp; {{ siteInfo.title.value }} &nbsp;-&nbsp;
-    <a target=_blank href="https://github.com/smallpath/blog">博客源码</a>
+    <a target=_blank href="https://github.com/APPLLEJN/blog">博客源码</a>
     <br> Powered by&nbsp;
     <a target=_blank href="https://github.com/vuejs/vue">Vue2</a>
     &nbsp;&amp;&nbsp;
