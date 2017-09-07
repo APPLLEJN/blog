@@ -86,11 +86,11 @@ callback(() => {
   }
 
   if (typeof window.__INITIAL_STATE__ === 'undefined') {
-    //realApp.$mount('#app')
-    //beforeEachHook(router.currentRoute, {}, () => {})
-    //Promise.all(
-    //  preFetchComponent.map(component => component.preFetch(store, store.state.route))
-    //).then(() => makeResponsive())
+    realApp.$mount('#app')
+    beforeEachHook(router.currentRoute, {}, () => {})
+    Promise.all(
+      preFetchComponent.map(component => component.preFetch(store, store.state.route))
+    ).then(() => makeResponsive())
   }
 
   // send user info if google analytics code is provided.

@@ -159,7 +159,6 @@ config.flushOption().then(() => {
     })
 
     renderStream.on('end', () => {
-      console.log(context.initialState, 'context.initialState')
       if (context.initialState) {
         context.initialState.supportWebp = supportWebp
         context.initialState.route = Object.assign({}, context.initialState.route, {
