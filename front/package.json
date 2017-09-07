@@ -2,7 +2,7 @@
   "name": "vue_client_side",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Smallpath <smallpath2013@gmail.com>",
+  "author": "geekjiang",
   "private": true,
   "scripts": {
     "dev": "node server",
