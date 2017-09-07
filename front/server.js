@@ -159,12 +159,16 @@ config.flushOption().then(() => {
     })
 
     renderStream.on('end', () => {
+      console.log(context.initialState, 'context.initialState')
       if (context.initialState) {
         context.initialState.supportWebp = supportWebp
+        context.initialState.route = Object.assign({}, context.initialState.route, {
+          matched: {}
+        })
         res.write(
           `<script>window.__INITIAL_STATE__=${
-          JSON.stringify(context.initialState)
-          }</script>`
+            JSON.stringify(context.initialState)
+            }</script>`
         )
       }
       let tail = html.tail
